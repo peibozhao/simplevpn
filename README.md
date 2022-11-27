@@ -12,7 +12,7 @@ sudo iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -o <INTERFACE> -j M^CQUERADE
 ```
 
 # client:
-```
+``` shell
 # compile
 make client
 # run vpn client
